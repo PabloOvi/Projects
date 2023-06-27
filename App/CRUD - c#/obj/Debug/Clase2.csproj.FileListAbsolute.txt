@@ -1,0 +1,13 @@
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Clase2.exe.config
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Clase2.exe
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Clase2.pdb
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.Properties.Resources.resources
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.Form1.resources
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.exe
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.pdb
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.Views.newLayout.resources
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Jsoft.Framework.Beautify.dll
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.csproj.CopyComplete

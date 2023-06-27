@@ -1,0 +1,34 @@
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Jsoft.Framework.Beautify.dll
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.Form1.resources
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Clase2.Views.newLayout.resources
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.csproj.CopyComplete
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Tp1.exe.config
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Tp1.exe
+C:\Users\pablo\source\repos\Clase2\Clase2\bin\Debug\Tp1.pdb
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.Properties.Resources.resources
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.exe
+C:\Users\pablo\source\repos\Clase2\Clase2\obj\Debug\Tp1.pdb
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\Tp1.exe.config
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\Tp1.exe
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\Tp1.pdb
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.csproj.AssemblyReference.cache
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.csproj.SuggestedBindingRedirects.cache
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.Properties.Resources.resources
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Clase2.Form1.resources
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Clase2.Views.newLayout.resources
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.csproj.GenerateResource.cache
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.csproj.CoreCompileInputs.cache
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.csproj.CopyComplete
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.exe
+C:\Pablo\sistemas\Segundo año\Clase2\obj\Debug\Tp1.pdb
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\EntityFramework.dll
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\System.Data.SQLite.dll
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\EntityFramework.xml
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Pablo\sistemas\Segundo año\Clase2\bin\Debug\System.Data.SQLite.xml

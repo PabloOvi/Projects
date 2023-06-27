@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Proyecto Cv</title>
+    <link rel="shortcut icon" href="assests/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    
+    <link href="assests/css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="assests/css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="assests/css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="assests/css/main.css?ver=1.2.0" rel="stylesheet">
+   
+  </head>
+  
+  <body id="top">
+    <div id="particles-js" style="z-index: 1; display: inline;"></div>
+    <header class="d-print-none">
+      <div class="container text-center text-lg-left">
+        <div class="py-3 clearfix">
+          <h1 class="site-title mb-0">Proyecto Final</h1><br>
+          <p id="nav-nombre" class="site-title mb-0"><i>Por Pablo Oviedo</i></p>
+          <div class="site-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                
+                <li  class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/pablo-oviedo-15aa8120b/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                </li>
+              </ul>
+            </nav>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="container">
+<div class="cover shadow-lg bg-light">
+  <div class="cover-bg p-3 p-lg-4 text-white">
+    <div class="row">
+      <div class="col-lg-4 col-md-5">
+        <div class="avatar hover-effect bg-white shadow-sm p-1"><img id="imagen" width="200" height="200"/></div>
+      </div>
+      <div class="col-lg-8 col-md-7 text-center text-md-start">
+        <h2 id="nombre" class="h1 mt-2" data-aos="fade-left" data-aos-delay="0"></h2><br>
+        
+        <p data-aos="fade-left" data-aos-delay="100">Software & Web Developer</p>
+        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-success shadow-sm mt-1" href="#contact">Contacto</a> <a class="btn btn-danger shadow-sm mt-1" onclick="siguienteCv()">Siguiente Cv</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="h3 mb-3">Sobre mi</h2>
+        <p id="info"></p>
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <div class="row mt-2">
+          <div class="col-sm-4">
+            <div class="pb-1">Edad</div>
+          </div>
+          <div class="col-sm-9">
+            <div id="edad" class="pb-1 text-secondary"></div>
+          </div>
+          
+          
+          <div class="col-sm-4">
+            <div class="pb-1">Nacionalidad</div>
+          </div>
+          <div class="col-sm-9">
+            <div id="direc" class="pb-1 text-secondary"></div>
+          </div>
+          <button type="button" onclick="masInfo()" class="btn btn-secondary">Mas informacion</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="skills-section px-3 px-lg-4">
+    <h2 class="h3 mb-3">Habilidades Tecnicas</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div  class="mb-2"><span>HTML</span>
+          <div class="progress my-1">
+            <div id="habHTML" class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>CSS</span>
+          <div class="progress my-1">
+            <div id="habCSS" class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>JavaScript</span>
+          <div class="progress my-1">
+            <div id="habJS" class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-2"><span>PHP</span>
+          <div class="progress my-1">
+            <div id="habPHP" class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>Python</span>
+          <div class="progress my-1">
+            <div id="habPY" class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>MySql</span>
+          <div class="progress my-1">
+            <div id="habSQL" class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="work-experience-section px-3 px-lg-4">
+    <h2 class="h3 mb-4">Experiencia Laboral</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Frontend Developer <span class="text-muted h6">en Creative Agency</span></div>
+          <div class="text-muted text-small mb-2">Mayo, 2015 - Presente</div>
+          <div>Uso de agiles frameworks para generar un robusto diseño.</div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">BackEnd Developer <span class="text-muted h6">en Soft Studio</span></div>
+          <div class="text-muted text-small mb-2">Junio, 2013 - Mayo, 2015</div>
+          <div>Desarrollo de diferentes aplicaciones de escritorio.</div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Junior Web Developer <span class="text-muted h6">en Indie Studio</span></div>
+          <div class="text-muted text-small mb-2">Enero, 2011 - Mayo, 2013</div>
+          <div>Desarrollo de distintas aplicaciones web en tiempo real</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="page-break"></div>
+  <div class="education-section px-3 px-lg-4 pb-4">
+    <h2 class="h3 mb-4">Educacion</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Maestría en Tecnologías de la Información <span class="text-muted h6">en International University</span></div>
+          <div class="text-muted text-small mb-2">2011 - 2013</div>
+          <div>Aproveche los marcos ágiles para proporcionar una sinopsis sólida para descripciones generales de alto nivel. Los enfoques iterativos de la estrategia corporativa fomentan el pensamiento colaborativo para promover la propuesta de valor general.</div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Licenciado en Ciencias de la Computación <span class="text-muted h6">en Regional College</span></div>
+          <div class="text-muted text-small mb-2">2007 - 2011</div>
+          <div>Supere la brecha digital con clics adicionales de DevOps. La inmersión en nanotecnología a lo largo de la autopista de la información cerrará el círculo al centrarse únicamente en el resultado final.</div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Ciencias y Matemáticas <span class="text-muted h6">en Mt. High Scool</span></div>
+          <div class="text-muted text-small mb-2">1995 - 2007</div>
+          <div>El contenido generado por el usuario en tiempo real tendrá múltiples puntos de contacto para la deslocalización. Hacer crecer orgánicamente la visión holística del mundo de la innovación disruptiva a través de la diversidad y el empoderamiento en el lugar de trabajo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+    <h2 class="h3 text mb-3">Contacto</h2>
+    <div class="row">
+      <div class="col-md-7 d-print-none">
+        <div class="my-2"><form action=""
+    method="POST">
+  <div class="row">
+    <div class="col-6">
+      <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su Nombre" required>
+    </div>
+    <div class="col-6">
+      <input class="form-control" type="email" id="email" name="_replyto" placeholder="Ingrese su Email" required>
+    </div>
+  </div>
+  <div class="form-group my-2">
+    <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Deja un mensaje" required></textarea>
+  </div>
+  <button class="btn btn-primary mt-2" type="submit">Enviar</button>
+</form>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mt-2">
+          
+          <h3 class="h6">Phone</h3>
+          <div id="tele" class="pb-2 text-secondary"></div>
+          <h3  class="h6">Email</h3>
+          <div id="mailcontacto" class="pb-2 text-secondary"></div>
+        </div>
+      </div>
+      <div class="col d-none d-print-block">
+        <div class="mt-2">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assests/js/cv.controller.js"></script>
+    <script src="assests/scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="assests/scripts/aos.js?ver=1.2.0"></script>
+    <script src="assests/scripts/main.js?ver=1.2.0"></script>
+    <script src="assests/particles.js-master/particles.js"></script>
+    <script src="assests/particles.js-master/demo/js/app.js"></script>
+  </body>
+</html>
